@@ -21,6 +21,7 @@ def generar_contrasenya():
 #Funcio per fer de deures
 def escriure_csv(estudiants, nom_arxiu):
     print("Escriure csv")
+    print("dsdasd")
 
 
 #Exemple d'us del programa
