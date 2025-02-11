@@ -21,10 +21,9 @@ def generar_contrasenya():
 #Funcio per fer de deures
 def escriure_csv(estudiants, nom_arxiu):
     print("Escriure csv")
-    with open(nom_arxiu, mode='w', encodind='utf-8', newline='') as fitxer:
-            
+    with open(nom_arxiu_entrada, mode = 'w', encodind = 'utf-8', newline = '') as fitxer:
             camps = estudiants[0].keys() if estudiants else []
-            escriptor = csv.DictWriter(fitxer,fieldnames=camps)
+            escriptor = csv.DictWriter(fitxer,fieldnames = camps)
 
 
 #Exemple d'us del programa
